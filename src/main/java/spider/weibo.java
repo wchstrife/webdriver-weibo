@@ -19,7 +19,7 @@ public class weibo {
 
             // 等待数据加载的时间
             // 为了防止服务器封锁，这里的时间要模拟人的行为，随机且不能太短
-            long waitLoadBaseTime = 2000;
+            long waitLoadBaseTime = 5000;
 
             int waitLoadRandomTime = 2000;
 
